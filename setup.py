@@ -15,7 +15,7 @@ setup(
     name="CPFlow",
     version="0.1.0",
     author="CWHuang",
-    packages=find_packages("./"),
+    packages=find_packages("."),
     description="Convex Potential Flow package",
     include_package_data=True,
     install_requires=find_requirements("requirements.txt"),
